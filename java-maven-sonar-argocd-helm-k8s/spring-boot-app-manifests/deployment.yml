@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: rishit80/cicd-gitops:replaceImageTag
+        image: rishit80/cicd-gitops:5
         ports:
         - containerPort: 8080
